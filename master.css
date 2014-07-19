@@ -7,7 +7,7 @@ a {
 }
 
 a:hover {
-   color: #666 !important;
+   color: #000 !important;
 }
 
 a b {
@@ -15,7 +15,7 @@ a b {
 }
 
 a b:hover {
-   color: #f0f0f0 !important;
+   color: #949494 !important;
 }
 
 #description div {
@@ -304,11 +304,11 @@ a[href="#"] img {
 }
 
 .model-link {
-     color: #666 !important;
+     color: #000 !important;
 }
 
 .model-link:hover {
-     color: #555 !important;
+     color: #000 !important;
      background: #f0f0f0 !important;
 }
 
@@ -355,7 +355,7 @@ a[href*="lastSuccessfulBuild/artifact/target/"]:hover {
 
 #top-panel {
     height: 37px !important;
-    background: #39c;
+    background: #b00;
     background-size:100% 100%;
 }
 
@@ -373,11 +373,12 @@ a[href*="lastSuccessfulBuild/artifact/target/"]:hover {
 
 #top-panel td > a {
     display: block;
-    background: url("hawk.png") 0 0 no-repeat;
+    background: url("img/title.png") 0 0 no-repeat;
     display: block;
-    width: 354px;
-    height: 64px;
+    width: 541px;
+    height: 50px;
     margin: 0px 0 -5px 0px;
+	padding-bottom: 4px;
 }
 
 #top-panel td > a img {
@@ -438,17 +439,17 @@ a[href*="lastSuccessfulBuild/artifact/target/"]:hover {
 }
 
 #footer {
-    border-top-color: #ddd !important;
-    background: #F0F0F0 !important;
-    color: #505050 !important;
+    border-top-color: #000 !important;
+    background: #666666 !important;
+    color: #000000 !important;
 }
 
 #footer > a {
-    color: #326ca6 !important;
+    color: #000000 !important;
 }
 
 a {
-    color: #326ca6 !important;
+    color: #000000 !important;
     text-decoration: none !important;
 }
 
@@ -482,7 +483,7 @@ th, #projectstatus th > a, th > a {
 }
 
 body > tr:first-of-type {
-    border-bottom: 1px solid #bbb !important;
+    border-bottom: 1px solid #666 !important;
 }
 
 th.pane {
@@ -490,7 +491,7 @@ th.pane {
 }
 
 tr {
-    border-bottom: 1px solid #bbb !important;
+    border-bottom: 1px solid #666 !important;
     border-left: none !important;
     border-right: none !important;
     border-top: none !important;
@@ -506,7 +507,7 @@ table.pane > tbody > tr > td:last-child {
 
 td.active {
     background: white !important;
-    color: #326ca6 !important;
+    color: #000000 !important;
     padding-bottom: 2px !important;
 }
 
@@ -642,6 +643,7 @@ form {
 
 .pane-header, .pane-header > a {
     color: black !important;
+	background: #666666
 }
 
 th.pane, tr.build-row > th {
@@ -783,7 +785,7 @@ img[src$="aborted.png"],  img[src$="aborted.gif"],  img[src$="aborted_anime.gif"
 }
 
 img[src*="blue.png"], img[src*="blue_anime.gif"] {
-    background: #326ca6 !important;
+    background: #32cd32 !important;
 }
 
 img[src*="yellow.png"], img[src*="yellow_anime.gif"] {
@@ -791,7 +793,7 @@ img[src*="yellow.png"], img[src*="yellow_anime.gif"] {
 }
 
 img[src*="red.png"], img[src*="red_anime.gif"] {
-    background: #FF7373 !important;
+    background: #bb0000 !important;
 }
 
 img[src*="_anime.gif"] {
